@@ -247,7 +247,7 @@ def plot_residuals(ax, img, target_name, vmin = -3, vmax = 3, cmap = "bwr", norm
         ax.annotate(annotation_text, (0.02, 0.85), xycoords="axes fraction", color="k", fontsize=fontsize)
     return im
     
-def plot_row(axs, median, pr, residuals, pixel_scale = 1, beam_params = None, target_name = None, dirty_res = None, show_pixel_scale = True, 
+def plot_stats(axs, median, pr, residuals, pixel_scale = 1, beam_params = None, target_name = None, dirty_res = None, show_pixel_scale = True, 
              show_dirty_res = False, show_beam = True, show_uv_axis = True, show_chi2 = False, show_title = False,
              show_name = False, show_text = False, med_params = ("magma", None), 
              pr_params = (cc.m_gray, None), 
