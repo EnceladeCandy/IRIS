@@ -166,7 +166,6 @@ def compute_uv_window(vis_grid, edge = 50):
     return max(D, 0), min(U, npix) 
 
 def compute_dirty_image(vis_gridded, norm = "backward"): 
-
     return flip(ftshift(ift(iftshift(vis_gridded), norm = norm)).real)
 
 
