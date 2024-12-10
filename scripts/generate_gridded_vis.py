@@ -81,7 +81,7 @@ def main(args):
     print(f"The measurement set contains {len(uu)} data points")
     npix = args.npix
     img_size = args.img_size
-    u_edges, v_edges = grid(pixel_scale = pixel_scale, img_size = npix)
+    u_edges, v_edges = grid(pixel_scale = pixel_scale, npix = npix)
     print(uu.min(), u_edges.min())
     print(uu.max(),  u_edges.max())
     print(vv.min(),  v_edges.min())
@@ -107,12 +107,12 @@ def main(args):
     if not args.debug_mode:
         params = (uu, vv, vis_re, weight_, (u_edges, v_edges), window_fn, truncation_radius)
         vis_bin_re = bin_data(*params, statistics_fn="mean", verbose=1)
-        std_bin_re = bin_data(*params, statistics_fn="std", verbose=2)
+        std_bin_re = bin_data(*params, statistics_fn="std", verbose=1)
 
         # Image part mean
         params = (uu, vv, vis_imag, weight_, (u_edges, v_edges), window_fn, truncation_radius)
         vis_bin_imag = bin_data(*params, statistics_fn="mean", verbose=1)
-        std_bin_imag = bin_data(*params, statistics_fn="std", verbose=2)
+        std_bin_imag = bin_data(*params, statistics_fn="std", verbose=1)
 
         # Count: 
         counts = bin_data(*params, statistics_fn="count", verbose=1)
