@@ -90,16 +90,6 @@ def main(args):
     pad_l = (pixel_center_w - img_size // 2)
     pad_r = npix - (pixel_center_w + img_size // 2)
 
-    # Position of the center of the target on the npix * npix grid.
-    # xc = npix//2 - xshift 
-    # yc = npix//2 - yshift 
-
-    # Odd padding
-    # pad_b = (yc - img_size // 2)
-    # pad_t = npix - (yc + img_size // 2)
-    # pad_l = (xc - img_size // 2)
-    # pad_r = npix - (xc + img_size // 2)
-    # pad = (pad_l, pad_r, pad_b, pad_t)
     pad = (pad_l, pad_r, pad_b, pad_t) # torch convention (pad left, pad right, pad bottom, pad top)
     if "probes" in args.score_dir:
         print(f"Running inference with probes {img_size}*{img_size} for target {target_name}...") 

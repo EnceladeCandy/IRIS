@@ -1,0 +1,234 @@
+{
+    "HTLup_continuum":    {
+        "pixel_scale": 0.0015,
+        "dirty_beam_fwhm_maj": 38,
+        "dirty_beam_fwhm_min" : 33, 
+        "dirty_beam_pa": 61,
+        "offset_h": 0, 
+        "offset_w": 0, 
+        "skirt_norm": 1e2,
+        "probes_norm": 1e0, 
+        "distance": 154
+
+    },
+    "HD143006_continuum": {
+        "pixel_scale": 0.0041,
+        "dirty_beam_fwhm_maj": 46,
+        "dirty_beam_fwhm_min" : 45, 
+        "dirty_beam_pa": 51, 
+        "offset_h": 10, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e0,
+        "distance": 165
+    },
+    "AS209_continuum":    {
+        "pixel_scale": 0.012,
+        "dirty_beam_fwhm_maj": 38,
+        "dirty_beam_fwhm_min" : 36, 
+        "dirty_beam_pa": 68,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 5e2,
+        "probes_norm": 1e1,
+        "distance": 121
+    }, 
+    "MYLup_continuum":   {
+        "pixel_scale": 0.0053,
+        "dirty_beam_fwhm_maj": 44,
+        "dirty_beam_fwhm_min" : 43, 
+        "dirty_beam_pa": 122,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e0,
+        "distance": 156
+    }, 
+    "IMLup_continuum":    {
+        "pixel_scale": 0.01625,
+        "dirty_beam_fwhm_maj": 44,
+        "dirty_beam_fwhm_min" : 43, 
+        "dirty_beam_pa": 115,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 5e2,
+        "probes_norm": 1e2,
+        "distance": 158
+    },
+    "AS205_continuum":    {
+        "pixel_scale": 0.004,
+        "dirty_beam_fwhm_maj": 38,
+        "dirty_beam_fwhm_min" : 25, 
+        "dirty_beam_pa": 95,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e0,
+        "distance": 128
+    },
+    "AS205_binary":    {
+        "pixel_scale": 0.0085,
+        "dirty_beam_fwhm_maj": 38,
+        "dirty_beam_fwhm_min" : 25, 
+        "dirty_beam_pa": 95,
+        "offset_h": -50, 
+        "offset_w": 50,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e0,
+        "distance": 128
+    },
+    "DoAr25_continuum":   {
+        "pixel_scale": 0.01468,
+        "dirty_beam_fwhm_maj": 41,
+        "dirty_beam_fwhm_min" : 22, 
+        "dirty_beam_pa": 70,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 5e2,
+        "probes_norm": 1e1,
+        "distance": 138
+    }, 
+    "DoAr33_continuum":   {
+        "pixel_scale": 0.002,
+        "dirty_beam_fwhm_maj": 37,
+        "dirty_beam_fwhm_min" : 24, 
+        "dirty_beam_pa": 75,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e1, 
+        "distance": 139
+    },
+    "Elias20_continuum":  {
+        "pixel_scale": 0.0048,
+        "dirty_beam_fwhm_maj": 32,
+        "dirty_beam_fwhm_min" : 23, 
+        "dirty_beam_pa": 76,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e1,
+        "distance": 138
+    },  
+    "Elias24_continuum":  {
+        "pixel_scale": 0.01,
+        "dirty_beam_fwhm_maj": 37,
+        "dirty_beam_fwhm_min" : 34, 
+        "dirty_beam_pa": 82,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 5e1,
+        "distance": 136
+    },
+    "Elias27_continuum":  {
+        "pixel_scale": 0.017,
+        "dirty_beam_fwhm_maj": 49,
+        "dirty_beam_fwhm_min" : 47, 
+        "dirty_beam_pa": 47,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e2,
+        "distance": 116
+    },
+    "GWLup_continuum":    {
+        "pixel_scale": 0.007,
+        "dirty_beam_fwhm_maj": 45,
+        "dirty_beam_fwhm_min" : 43, 
+        "dirty_beam_pa": 1,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 2e1,
+        "distance": 155
+    }, 
+    "HD142666_continuum":  {
+        "pixel_scale": 0.006,
+        "dirty_beam_fwhm_maj": 32,
+        "dirty_beam_fwhm_min" : 22, 
+        "dirty_beam_pa": 62,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e0,
+        "distance": 148
+    }, 
+    "HD163296_continuum": {
+        "pixel_scale": 0.0178,
+        "dirty_beam_fwhm_maj": 48,
+        "dirty_beam_fwhm_min" : 38, 
+        "dirty_beam_pa": 82,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 5e2,
+        "probes_norm": 2e1,
+        "distance": 101
+    },
+    "RULup_continuum":    {
+        "pixel_scale": 0.004,
+        "dirty_beam_fwhm_maj": 25,
+        "dirty_beam_fwhm_min" : 24, 
+        "dirty_beam_pa": 129,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e1,
+        "distance": 159
+    }, 
+    "SR4_continuum":      {
+        "pixel_scale": 0.003,
+        "dirty_beam_fwhm_maj": 34,
+        "dirty_beam_fwhm_min" : 34, 
+        "dirty_beam_pa": 10,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e1,
+        "distance": 134
+    }, 
+    "Sz114_continuum":    {
+        "pixel_scale": 0.004,
+        "dirty_beam_fwhm_maj": 67,
+        "dirty_beam_fwhm_min" : 28, 
+        "dirty_beam_pa": 92,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e1, 
+        "distance": 162
+    }, 
+    "Sz129_continuum":    {
+        "pixel_scale": 0.0063,
+        "dirty_beam_fwhm_maj": 44,
+        "dirty_beam_fwhm_min" : 31, 
+        "dirty_beam_pa": 94,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 5e0,
+        "distance": 161
+    }, 
+    "WaOph6_continuum":   {
+        "pixel_scale": 0.0092,
+        "dirty_beam_fwhm_maj": 58,
+        "dirty_beam_fwhm_min" : 54, 
+        "dirty_beam_pa": 84,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 2e1,
+        "distance": 123
+    },  
+    "WSB52_continuum":  {
+        "pixel_scale": 0.002,
+        "dirty_beam_fwhm_maj": 33,
+        "dirty_beam_fwhm_min" : 27, 
+        "dirty_beam_pa": 74,
+        "offset_h": 0, 
+        "offset_w": 0,
+        "skirt_norm": 1e2,
+        "probes_norm": 1e1,
+        "distance": 136
+    } 
+}
