@@ -10,7 +10,7 @@ from functools import partial
 from glob import glob
 import json
 
-def grid(pixel_scale, img_size): 
+def grid(pixel_scale, npix): 
     """
     Given a pixel scale and a number of pixels in image space, grid the associated Fourier space
 
@@ -26,17 +26,17 @@ def grid(pixel_scale, img_size):
     dl = (pixel_scale * u.arcsec).to(u.radian).value
     dm = (pixel_scale * u.arcsec).to(u.radian).value
 
-    du = 1 / (img_size * dl) * 1e-3 # klambda
-    dv = 1 / (img_size * dm) * 1e-3 # klambda
+    du = 1 / (npix * dl) * 1e-3 # klambda
+    dv = 1 / (npix * dm) * 1e-3 # klambda
 
-    u_min = -img_size/2 * du 
-    u_max =  img_size/2 * du 
+    u_min = -npix/2 * du 
+    u_max =  npix/2 * du 
 
-    v_min = -img_size/2 * dv
-    v_max =  img_size/2 * dv
+    v_min = -npix/2 * dv
+    v_max =  npix/2 * dv
 
-    u_edges = np.linspace(u_min, u_max, img_size + 1)
-    v_edges = np.linspace(v_min, v_max, img_size + 1)
+    u_edges = np.linspace(u_min, u_max, npix + 1)
+    v_edges = np.linspace(v_min, v_max, npix + 1)
 
     return u_edges, v_edges
 
