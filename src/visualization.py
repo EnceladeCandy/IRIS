@@ -103,7 +103,7 @@ def scientific_notation_latex(value):
     return coefficient, int(exponent.split('+')[-1])
 
 
-def plot_grid_samples(images, N, title = None, cmap = "magma", norm = None): 
+def plot_grid_samples(images, N, title = None, cmap = "magma", norm = None, wspace = 0.1, hspace = 0.05): 
     """
     Plots a grid of images. The input
 
@@ -115,13 +115,14 @@ def plot_grid_samples(images, N, title = None, cmap = "magma", norm = None):
     
     k = 0
     for i, ax in enumerate(axs.flatten()):
-        ax.imshow(images[k].squeeze(), cmap = cmap, origin = "lower", norm = norm)
+        im = ax.imshow(images[k].squeeze(), cmap = cmap, origin = "lower", norm = norm)
+        cbar = plt.colorbar(im, fraction = 0.0455)
         ax.axis("off") 
         k+=1
 
     if title: 
         fig.suptitle(title, y = 0.91, x = 0.5)
-    plt.subplots_adjust(wspace = 0.05, hspace = 0.05)
+    plt.subplots_adjust(wspace = wspace, hspace = hspace)
 
 
 # Plotting residuals
@@ -248,7 +249,7 @@ def plot_residuals(ax, img, target_name, vmin = -3, vmax = 3, cmap = "bwr", norm
     return im
     
 def plot_stats(axs, median, pr, residuals, pixel_scale = 1, beam_params = None, target_name = None, dirty_res = None, show_pixel_scale = True, 
-             show_dirty_res = False, show_beam = True, show_uv_axis = True, show_chi2 = False, show_title = False,
+             show_dirty_res = False, show_beam = False, show_chi2 = False, show_title = False,
              show_name = False, show_text = False, med_params = ("magma", None), 
              pr_params = (cc.m_gray, None), 
              res_params = ("bwr", None),
