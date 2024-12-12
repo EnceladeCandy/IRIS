@@ -24,6 +24,7 @@ In the tutorials folder, we go through the different steps of the approach and t
 3) `3_zenodo_data.ipynb`, which explains how the zenodo datasets is related to our code. 
 4) `4_inference_with_SBM_in_depth.ipynb`, where we explain our approach with more details on a toy problem.  
 
+The notebooks can be completed independently and are designed to enable direct data downloads from Zenodo. 
 
 ## LICENSE
 If you use this repository for your research, please consider citing us. 
