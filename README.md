@@ -3,7 +3,7 @@
     <img src="assets/gif_dsharp.gif" alt="Animation" width="700">
 </p>
 
-This repository provides Python routines and tutorial notebooks used to generate the results presented in THIS PAPER. This work involves performing Bayesian inference on protoplanetary disk measurements from the DSHARP survey conducted by ALMA.
+This repository provides Python routines and tutorial notebooks used to generate the results presented in THIS PAPER. This work involves performing Bayesian inference on protoplanetary disk measurements from the DSHARP survey conducted by ALMA. The current code is somewhat experimental, so occasional bugs may be present. 
 
 
 ## Getting started
