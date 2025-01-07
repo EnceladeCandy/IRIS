@@ -3,7 +3,7 @@
     <img src="assets/gif_dsharp.gif" alt="Animation" width="700">
 </p>
 
-This repository provides Python routines and tutorial notebooks used to generate the results presented in THIS PAPER. This work involves performing Bayesian inference on protoplanetary disk measurements from the DSHARP survey conducted by ALMA. The current code is somewhat experimental, so occasional bugs may be present. 
+This repository provides Python routines and tutorial notebooks used to generate the results presented in [this paper](https://arxiv.org/abs/2501.02473). This work involves performing Bayesian inference on protoplanetary disk measurements from the DSHARP survey conducted by ALMA. The current code is somewhat experimental, so occasional bugs may be present. 
 
 
 ## Getting started
@@ -28,7 +28,17 @@ The notebooks can be completed independently and are designed to enable direct d
 
 ## LICENSE
 If you use this repository for your research, please consider citing us. 
-
+```Python
+@misc{dia2025irisbayesianapproachimage,
+      title={IRIS: A Bayesian Approach for Image Reconstruction in Radio Interferometry with expressive Score-Based priors}, 
+      author={Noé Dia and M. J. Yantovski-Barth and Alexandre Adam and Micah Bowles and Laurence Perreault-Levasseur and Yashar Hezaveh and Anna Scaife},
+      year={2025},
+      eprint={2501.02473},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.IM},
+      url={https://arxiv.org/abs/2501.02473}, 
+}
+```
 This package is licensed under the MIT License. 
 
 
